@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+{% block head %}{% endblock %}
+{% block title %}{{ user.username }}{% endblock %}
+{% block main %}
+<div>
+<ul>
+<li>用户名:{{ user.username }}</li>
+<li>电话:{{ user.telephone }}</li>
+<li>邮箱:</li>
+<li>注册时间:</li>
+</ul>
+</div>
+{% endblock %}

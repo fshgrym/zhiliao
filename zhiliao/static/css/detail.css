@@ -1,0 +1,35 @@
+.detail{
+    text-align: center;
+}
+.answer-info{
+
+}
+
+.answer-all{
+    padding-top: 80px;
+    padding-left: 0;
+}
+.answer-all li {
+    list-style: none;
+    border-bottom: 1px solid #eeeeee;
+    padding-top: 10px;
+
+}
+.answer-time{
+    float: right;
+    line-height: 40px;
+}
+.answer-username{
+    font-size: 16px;
+    color: #9b9b9b;
+    padding-left: 20px;
+}
+.answer-content{
+    padding-top: 15px;
+    margin-left: 60px;
+}
+.answer-all li .answer-img{
+    width: 40px;
+    height: 40px;
+    border-radius:50% ;
+}
